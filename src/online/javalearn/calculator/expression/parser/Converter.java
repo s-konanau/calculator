@@ -30,7 +30,7 @@ public final class Converter {
 
         if (value <= 0) {
             throw new NumberFormatException(value
-                    + " can not be converted to the numerical notation" +
+                    + " can not be represented with the numerical notation" +
                     " based on the Roman system.");
         }
 

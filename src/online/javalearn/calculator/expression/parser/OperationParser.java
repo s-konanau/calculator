@@ -1,6 +1,6 @@
 package online.javalearn.calculator.expression.parser;
 
-import online.javalearn.calculator.expression.exception.UnsupportedOperandException;
+import online.javalearn.calculator.expression.exception.UnsupportedOperationException;
 import online.javalearn.calculator.expression.symbol.Operation;
 
 /**
@@ -21,7 +21,7 @@ final class OperationParser {
             }
         }
 
-        throw new UnsupportedOperandException("Operation: " + sign);
+        throw new UnsupportedOperationException("Operation: " + sign);
     }
 
 }
